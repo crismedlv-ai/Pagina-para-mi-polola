@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para mi Polola</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background: linear-gradient(120deg, #ffe0ec 0%, #c2e9fb 100%);
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background: #ffb6b9;
+            color: #fff;
+            text-align: center;
+            padding: 2rem 1rem 1rem 1rem;
+            border-bottom-left-radius: 40px;
+            border-bottom-right-radius: 40px;
+        }
+        section {
+            margin: 2rem auto;
+            max-width: 800px;
+            background: #fff;
+            border-radius: 20px;
+            box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+            padding: 2rem;
+        }
+        h2 {
+            color: #ffb6b9;
+            margin-top: 0;
+        }
+        .gallery {
+            display: flex;
+            gap: 1rem;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .gallery img {
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 15px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+            max-width: 100%;
+            height: auto;
+        }
+        @media (max-width: 600px) {
+            section {
+                padding: 1rem;
+                margin: 1rem auto;
+            }
+            .gallery {
+                gap: 0.5rem;
+            }
+            .gallery img {
+                width: 100px;
+                height: 100px;
+            }
+            h2 {
+                font-size: 1.2rem;
+            }
+            header {
+                padding: 1rem 0.5rem 0.5rem 0.5rem;
+            }
+            .botones button {
+                padding: 0.7rem 1.2rem;
+                font-size: 1rem;
+            }
+        }
+        .messages {
+            font-size: 1.2rem;
+            color: #555;
+            margin-bottom: 1rem;
+        }
+        .memory {
+            background: #f7cac9;
+            color: #fff;
+            border-radius: 12px;
+            padding: 1rem;
+            margin-bottom: 1rem;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+        }
+        .pregunta {
+            text-align: center;
+            margin-top: 2rem;
+        }
+        .botones {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            margin-top: 1rem;
+        }
+        .botones button {
+            background: #ffb6b9;
+            color: #fff;
+            border: none;
+            border-radius: 10px;
+            padding: 1rem 2rem;
+            font-size: 1.2rem;
+            cursor: pointer;
+            transition: background 0.2s;
+        }
+        .botones button:hover {
+            background: #c2e9fb;
+            color: #ffb6b9;
+        }
+        .respuesta {
+            text-align: center;
+            font-size: 1.3rem;
+            color: #ffb6b9;
+            margin-top: 1.5rem;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Marti eres el AMOR DE MI VIDA 💖</h1>
+        <p>Eres mi media naranja :P</p>
+    </header>
+    <section id="principal">
+    <h2>Bienvenida mi princesa</h2>
+    <p>Esta página la hice para recordarte lo especial que eres para mí y para pedirte perdón por mis errores. Abajo encontrarás una carta donde te abro mi corazón. Espero que te guste mucho.</p>
+    </section>
+    <section id="galeria">
+        <h2>Galería de nuestros recuerdos mas lindos</h2>
+        <div class="gallery">
+            <img src="1.jpg" alt="Foto 1">
+            <img src="2.jpg" alt="Foto 2">
+            <img src="3.jpg" alt="Foto 3">
+            <img src="4.jpg" alt="Foto 4">
+        </div>
+        </div>
+    </section>
+    <section id="mensajes">
+        <h2>Carta para uste</h2>
+        <div class="messages">
+            Mi amor<br>
+            Hoy quiero abrirte mi corazón y pedirte perdón por mis errores. Sé que a veces no soy perfecto, pero cada día intento ser mejor por ti, porque eres la persona más importante de mi vida. No hay palabras suficientes para expresar lo mucho que te amo y lo agradecido que estoy por cada momento que compartimos.<br><br>
+            Recuerdo con felicidad nuestro primer beso, el 19 de abril en el paradero full nervioso :p, cuando sentí que el mundo se detenía y solo existíamos tú y yo. El 12 de julio, cuando comenzamos nuestro pololeo, fue el inicio de una historia que quiero que nunca termine. Y cómo olvidar tu cumpleaños el 3 de noviembre, cuando te llevé flores y vi tu carita de felicidad, ese momento lo guardo como uno de mis recuerdos favoritos.<br><br>
+            Me enamora tu risa, tu forma de ver la vida, tu ternura y tu fortaleza. Admiro la manera en que enfrentas los desafíos y cómo logras iluminar mis días incluso cuando parecen nublados. Gracias por tu paciencia, por tu cariño, por cada abrazo y cada palabra de aliento. Eres mi refugio, mi alegría y mi mayor motivación.<br><br>
+            Quiero que sepas que cada día contigo es un regalo. Sueño con seguir construyendo juntos miles de recuerdos, viajar, reír, apoyarnos y crecer como pareja. Prometo esforzarme para hacerte feliz, para cuidarte y para que nunca te falte amor de mi parte.<br><br>
+           Te he lastimado y te pido perdón de corazón. Mi intención siempre será verte sonreír y que te sientas amada. Gracias por elegirme, por confiar en mí y por ser mi compañera de vida.<br><br>
+            Te amo más de lo que las palabras pueden decir, y cada día mi amor por ti crece aún más.<br><br>
+            Con todo mi amor<br>
+            Tu pololo
+        </div>
+    </section>
+    <section class="pregunta">
+        <h2>¿Quieres ser mi novia?</h2>
+        <div class="botones">
+            <button onclick="mostrarRespuesta('¡Eso pensaba mi amorr! 😍')">Sí</button>
+            <button id="noBtn" onclick="moverBotonNo()">No</button>
+        </div>
+        <div id="respuesta" class="respuesta"></div>
+    </section>
+    <script>
+        function mostrarRespuesta(texto) {
+            document.getElementById('respuesta').textContent = texto;
+        }
+
+        function moverBotonNo() {
+            const btnNo = document.getElementById('noBtn');
+            const btnSi = document.querySelector('.botones button:first-child');
+            const botones = btnNo.parentElement;
+            const maxX = botones.offsetWidth - btnNo.offsetWidth;
+            const maxY = botones.offsetHeight - btnNo.offsetHeight;
+            let randomX, randomY;
+            let overlap;
+            do {
+                randomX = Math.floor(Math.random() * maxX);
+                randomY = Math.floor(Math.random() * maxY);
+                // Calcular posición y tamaño de ambos botones
+                const siRect = btnSi.getBoundingClientRect();
+                const noRect = {
+                    left: siRect.left + (randomX - btnNo.offsetLeft),
+                    top: siRect.top + (randomY - btnNo.offsetTop),
+                    right: siRect.left + (randomX - btnNo.offsetLeft) + btnNo.offsetWidth,
+                    bottom: siRect.top + (randomY - btnNo.offsetTop) + btnNo.offsetHeight
+                };
+                // Verificar si se superponen
+                overlap = !(noRect.right < siRect.left ||
+                            noRect.left > siRect.right ||
+                            noRect.bottom < siRect.top ||
+                            noRect.top > siRect.bottom);
+            } while (overlap);
+            btnNo.style.position = 'absolute';
+            btnNo.style.left = randomX + 'px';
+            btnNo.style.top = randomY + 'px';
+        }
+
+        // Para que el contenedor de botones permita posición absoluta
+        document.addEventListener('DOMContentLoaded', function() {
+            const botones = document.querySelector('.botones');
+            botones.style.position = 'relative';
+        });
+    </script>
+</body>
+</html>
